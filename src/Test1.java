@@ -4,6 +4,7 @@ public class Test1 {
 	
 	    int jumsu = 0; 
         char level = ' '; 
+        String branch_name = "branchX";
       
         if(jumsu >= 90){
             level = 'A';
@@ -16,11 +17,12 @@ public class Test1 {
         }
         else if(jumsu >= 60){
            level = 'D';
-        }
+        } 
         else{
            level = 'F'; 
         }
         
         System.out.println("jumsu: " + jumsu + " level : " + level);
+        System.out.println("branch:" + branch_name);
     }
 }
