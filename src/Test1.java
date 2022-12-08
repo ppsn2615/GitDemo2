@@ -2,8 +2,8 @@ public class Test1 {
 	
 	public static void main(String[] args) {
 	
-	    int jumsu = 0; // ���� �Է¹ޱ� 
-        char level = ' '; // ���� �ʱ�ȭ 
+	    int jumsu = 0; 
+        char level = ' '; 
       
         if(jumsu >= 90){
             level = 'A';
@@ -21,6 +21,6 @@ public class Test1 {
            level = 'F'; 
         }
         
-        System.out.println("���� : " + jumsu + "\t���� : " + level);
+        System.out.println("jumsu: " + jumsu + " level : " + level);
     }
 }
